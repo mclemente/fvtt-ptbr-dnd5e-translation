@@ -1,0 +1,41 @@
+{
+  "id": "dnd5e-pt-BR",
+  "title": "D&D5e - Tradução para Português Brasileiro",
+  "description": "Tradução do sistema dnd5e do FoundryVTT.",
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "dnd5e",
+        "compatibility": {
+          "minimum": "5.0.4",
+          "verified": "5.0.4"
+        }
+      }
+    ],
+    "recommends": [{
+      "id": "pt-BR",
+      "type": "module"
+    }]
+  },
+  "authors": [
+    {
+      "name": "Matheus Clemente",
+      "discord": "mclemente"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+	"url": "This is auto replaced",
+	"version": "This is auto replaced",
+	"manifest": "This is auto replaced",
+	"download": "This is auto replaced"
+}
