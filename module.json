@@ -15,11 +15,7 @@
           "verified": "5.0.4"
         }
       }
-    ],
-    "recommends": [{
-      "id": "pt-BR",
-      "type": "module"
-    }]
+    ]
   },
   "authors": [
     {
