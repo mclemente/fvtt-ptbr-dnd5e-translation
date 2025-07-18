@@ -8,8 +8,8 @@
   },
   "TYPES.Actor.character": "Personagem",
   "TYPES.Actor.characterPl": "Personagens",
-  "TYPES.Actor.npc": "Personagem Não-Jogador",
-  "TYPES.Actor.npcPl": "Personagens Não-Jogadores",
+  "TYPES.Actor.npc": "Personagem Não Jogador",
+  "TYPES.Actor.npcPl": "Personagens Não Jogadores",
   "TYPES.Actor.vehicle": "Veículo",
   "TYPES.Actor.vehiclePl": "Veículos",
   "TYPES.Actor.group": "Grupo",
@@ -34,8 +34,8 @@
   "TYPES.Item.facilityPl": "Instalações",
   "TYPES.Item.feat": "Característica",
   "TYPES.Item.featurePl": "Características",
-  "TYPES.Item.loot": "Saque",
-  "TYPES.Item.lootPl": "Saques",
+  "TYPES.Item.loot": "Espólio",
+  "TYPES.Item.lootPl": "Espólios",
   "TYPES.Item.race": "Espécie",
   "TYPES.Item.racePl": "Espécies",
   "TYPES.Item.raceLegacy": "Raça",
@@ -762,8 +762,8 @@
           }
         },
         "flat": {
-          "label": "Fixo para Acertar",
-          "hint": "Ignore o modificador de atributo, proficiência e quaisquer outros bônus do ator e use apenas o bônus definido pela atividade ao calcular o acerto."
+          "label": "Valor Fixo para Acertar",
+          "hint": "Ignora o modificador de atributo, proficiência e quaisquer outros bônus do ator e usa apenas o bônus definido pela atividade ao calcular o acerto."
         },
         "type": {
           "label": "Tipo de Ataque",
@@ -840,7 +840,7 @@
   "DND5E.AutomaticValue": "Automático ({value})",
   "DND5E.Award": {
     "Title": "Distribuir Recompensa",
-    "Action": "Recompensa",
+    "Action": "Recompensar",
     "Distribution": {
       "Split": "Dividir",
       "Each": "Cada"
@@ -1587,7 +1587,7 @@
   "DND5E.CurrencyAbbrPP": "pl",
   "DND5E.CurrencyAbbrSP": "pp",
   "DND5E.CurrencyCP": "Cobre",
-  "DND5E.CurrencyEP": "Elektro",
+  "DND5E.CurrencyEP": "Electro",
   "DND5E.CurrencyGP": "Ouro",
   "DND5E.CurrencyPP": "Platina",
   "DND5E.CurrencySP": "Prata",
@@ -1736,23 +1736,23 @@
   "DND5E.DamageTypes": "Tipos de Dano",
   "DND5E.Dawn": "Amanhecer",
   "DND5E.Day": "Dia",
-  "DND5E.DeathSave": "Salvaguardas Contra Morte",
-  "DND5E.DeathSaveBonus": "Bônus de Salvaguardas Contra Morte",
-  "DND5E.DeathSaveConfigure": "Configurar Salvaguardas Contra Morte",
+  "DND5E.DeathSave": "Salvaguarda Contra Morte",
+  "DND5E.DeathSaveBonus": "Bônus de Salvaguarda Contra Morte",
+  "DND5E.DeathSaveConfigure": "Configurar Salvaguarda Contra Morte",
   "DND5E.DeathSaveCriticalSuccess": "{name} obteve um sucesso crítico em uma Salvaguarda Contra Morte e recuperou 1 Ponto de Vida!",
   "DND5E.DeathSaveHide": "Esconder Salvaguardas Contra Morte",
   "DND5E.DeathSaveShow": "Mostrar Salvaguardas Contra Morte",
   "DND5E.DeathSaveSuccess": "{name} sobreviveu com 3 sucessos em Salvaguardas Contra Morte e agora está estável!",
   "DND5E.DeathSaveSuccessLabel": "Sucesso Contra Morte",
-  "DND5E.DeathSaveSuccessLabelN.one": "1° sucesso contra morte",
-  "DND5E.DeathSaveSuccessLabelN.two": "2° sucesso contra morte",
-  "DND5E.DeathSaveSuccessLabelN.few": "3° sucesso contra morte",
+  "DND5E.DeathSaveSuccessLabelN.one": "1º sucesso contra morte",
+  "DND5E.DeathSaveSuccessLabelN.two": "2º sucesso contra morte",
+  "DND5E.DeathSaveSuccessLabelN.few": "3º sucesso contra morte",
   "DND5E.DeathSaveSuccesses": "Sucessos",
   "DND5E.DeathSaveFailure": "{name} morreu com 3 falhas em Salvaguardas Contra Morte!",
   "DND5E.DeathSaveFailureLabel": "Falhas Contra Morte",
-  "DND5E.DeathSaveFailureLabelN.one": "1° falha contra morte",
-  "DND5E.DeathSaveFailureLabelN.two": "2° falha contra morte",
-  "DND5E.DeathSaveFailureLabelN.few": "3° falha contra morte",
+  "DND5E.DeathSaveFailureLabelN.one": "1ª falha contra morte",
+  "DND5E.DeathSaveFailureLabelN.two": "2ª falha contra morte",
+  "DND5E.DeathSaveFailureLabelN.few": "3ª falha contra morte",
   "DND5E.DeathSaveFailures": "Falhas",
   "DND5E.DeathSaveRoll": "Jogar uma Salvaguarda Contra Morte",
   "DND5E.DeathSavingThrow": "Salvaguarda Contra Morte",
@@ -2326,7 +2326,7 @@
       "EpicBoon": "Dádiva Épica"
     },
     "Vehicle": {
-      "Label": "Característica do veículo"
+      "Label": "Característica de Veículo"
     }
   },
   "DND5E.Focus": {
@@ -2337,7 +2337,7 @@
   },
   "DND5E.Loot.Art": "Arte",
   "DND5E.Loot.Gear": "Equipamento de Aventura",
-  "DND5E.Loot.Gem": "Gemas",
+  "DND5E.Loot.Gem": "Gema",
   "DND5E.Loot.Junk": "Lixo",
   "DND5E.Loot.Material": "Material",
   "DND5E.Loot.Resource": "Recurso",
@@ -2425,7 +2425,7 @@
   "DND5E.FlagsObservantHint": "Provê um bônus de +5 para a Percepção passiva e Investigação passiva.",
   "DND5E.FlagsTavernBrawler": "Talento: Valentão de Taverna",
   "DND5E.FlagsTavernBrawlerHint": "Proficiência com armas improvisadas.",
-  "DND5E.FlagsReliableTalent": "Talento: Confiável",
+  "DND5E.FlagsReliableTalent": "Talento Confiável",
   "DND5E.FlagsReliableTalentHint": "Característica 'Talento Confiável' de Ladinos.",
   "DND5E.FlagsRemarkableAthlete": "Atleta Extraordinário",
   "DND5E.FlagsRemarkableAthleteHint": "Adiciona meia Proficiência (arredondada para cima) em Iniciativa e Testes de Atributos físicos.",
@@ -2648,10 +2648,10 @@
   "DND5E.ItemFeatureProperties": "Propriedades da Característica",
   "DND5E.ItemFeatureSubtype": "Tipo de {category}",
   "DND5E.ItemFeatureType": "Tipo de Característica",
-  "DND5E.ItemLootDetails": "Detalhes do Saque",
-  "DND5E.ItemLootProperties": "Propriedades do Saque",
+  "DND5E.ItemLootDetails": "Detalhes do Espólio",
+  "DND5E.ItemLootProperties": "Propriedades do Espólio",
   "DND5E.ItemLootSubtype": "Tipo de {category}",
-  "DND5E.ItemLootType": "Tipo de Saque",
+  "DND5E.ItemLootType": "Tipo de Espólio",
   "DND5E.ItemName": "Nome do Item",
   "DND5E.ItemNew": "Novo(a) {type}",
   "DND5E.ItemRarityCommon": "comum",
@@ -2785,7 +2785,7 @@
       "Infernal": "Infernal",
       "Orc": "Orc",
       "Primordial": "Primordial",
-      "Sylvan": "Sylvan",
+      "Sylvan": "Silvestre",
       "Terran": "Terran",
       "ThievesCant": "Gíria do Ladrão",
       "Undercommon": "Subcomum"
@@ -2799,10 +2799,10 @@
     "LairUses": "{normal} ({lair} em Covil)",
     "Max": "Ações Lendárias Máximas",
     "Ordinal": {
-      "one": "{n}º Ação Lendária",
-      "two": "{n}º Ação Lendária",
-      "few": "{n}º Ação Lendária",
-      "other": "{n}º Ação Lendária"
+      "one": "{n}ª Ação Lendária",
+      "two": "{n}ª Ação Lendária",
+      "few": "{n}ª Ação Lendária",
+      "other": "{n}ª Ação Lendária"
     },
     "Remaining": "Ações Lendárias Restantes"
   },
@@ -2813,10 +2813,10 @@
     "Label": "Resistência Lendária",
     "Max": "Resistências Lendárias Máximas",
     "Ordinal": {
-      "one": "{n}º Resistência Lendária",
-      "two": "{n}º Resistência Lendária",
-      "few": "{n}º Resistência Lendária",
-      "other": "{n}º Resistência Lendária"
+      "one": "{n}ª Resistência Lendária",
+      "two": "{n}ª Resistência Lendária",
+      "few": "{n}ª Resistência Lendária",
+      "other": "{n}ª Resistência Lendária"
     },
     "Remaining": "Resistências Lendárias Restantes",
     "Resisted": "Resistência Lendária Usada"
@@ -2843,7 +2843,7 @@
   "DND5E.Loyalty": "Lealdade",
   "DND5E.MagicalBonus": "Bônus Mágico",
   "DND5E.Materials": "Materiais",
-  "DND5E.Max": "Max",
+  "DND5E.Max": "Máx",
   "DND5E.MaxCharacterLevelExceededWarn": "O personagem não pode ser avançar além do nível {max}.",
   "DND5E.MaxClassLevelExceededWarn": "A classe não pode ser avançada além do nível {max}.",
   "DND5E.MaxClassLevelMinimumWarn": "A classe deve ter pelo menos um nível.",
@@ -2961,7 +2961,7 @@
           "hint": "Use esses valores de alcance em vez dos valores do item ao usar esta atividade."
         },
         "reach": {
-          "label": "Extensão"
+          "label": "Alcance"
         },
         "special": {
           "label": "Alcance Especial",
@@ -3210,17 +3210,17 @@
   "DND5E.SchoolTrs": "Transmutação",
   "DND5E.Size": "Tamanho",
   "DND5E.SizeGargantuan": "Colossal",
-  "DND5E.SizeGargantuanAbbr": "Cs",
+  "DND5E.SizeGargantuanAbbr": "Col",
   "DND5E.SizeHuge": "Enorme",
-  "DND5E.SizeHugeAbbr": "Em",
+  "DND5E.SizeHugeAbbr": "Enm",
   "DND5E.SizeLarge": "Grande",
-  "DND5E.SizeLargeAbbr": "Gd",
+  "DND5E.SizeLargeAbbr": "Grd",
   "DND5E.SizeMedium": "Médio",
-  "DND5E.SizeMediumAbbr": "Md",
+  "DND5E.SizeMediumAbbr": "Méd",
   "DND5E.SizeSmall": "Pequeno",
-  "DND5E.SizeSmallAbbr": "Pq",
+  "DND5E.SizeSmallAbbr": "Peq",
   "DND5E.SizeTiny": "Minúsculo",
-  "DND5E.SizeTinyAbbr": "Mc",
+  "DND5E.SizeTinyAbbr": "Min",
   "DND5E.SKILL": {
     "SECTIONS": {
       "Details": "Detalhes de {label}",
@@ -3376,7 +3376,7 @@
     "Formula": "Formula de Preparação da Magia",
     "Mode": "Modo de Preparação da Magia"
   },
-  "DND5E.SpellSourceClass": "Classe Fonte",
+  "DND5E.SpellSourceClass": "Classe de Origem",
   "DND5E.SpellPrepared": "Preparada",
   "DND5E.SpellProgArt": "Artífice",
   "DND5E.SpellProgAvailable": "Espaços Disponíveis",
@@ -3386,20 +3386,20 @@
   "DND5E.SpellProgOverride": "Substituir espaços",
   "DND5E.SpellProgPact": "Magia de Pacto",
   "DND5E.SpellProgThird": "1/3 Conjurador",
-  "DND5E.SpellProgression": "Progresso de Magias",
+  "DND5E.SpellProgression": "Progressão de Magia",
   "DND5E.SpellsSearch": "Procurar Magias",
   "DND5E.SpellSchool": "Escola de Magia",
   "DND5E.SpellScroll": "Pergaminho de Magia",
   "DND5E.SpellSlotExpended": "Espaço de Magia Gasto",
-  "DND5E.SpellSlotN.one": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotN.two": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotN.few": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotN.other": "Espaço de {n}° Círculo",
+  "DND5E.SpellSlotN.one": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotN.two": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotN.few": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotN.other": "Espaço de {n}º Círculo",
   "DND5E.SpellSlotTemporary": "Espaço de magia temporário",
-  "DND5E.SpellSlotsN.one": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotsN.two": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotsN.few": "Espaço de {n}° Círculo",
-  "DND5E.SpellSlotsN.other": "Espaços de {n}° Círculo",
+  "DND5E.SpellSlotsN.one": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotsN.two": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotsN.few": "Espaço de {n}º Círculo",
+  "DND5E.SpellSlotsN.other": "Espaços de {n}º Círculo",
   "DND5E.SpellSlotsPact": "Espaços de Magia de Pacto",
   "DND5E.SpellSlotsConfig": "Configurar Espaço de Magia",
   "DND5E.SpellTag": "Etiqueta de Magia",
@@ -3604,7 +3604,7 @@
     },
     "FIELDS": {
       "target": {
-        "label": "Alvejando",
+        "label": "Alvos",
         "affects": {
           "label": "Alvos Afetados",
           "choice": {
@@ -4756,12 +4756,12 @@
   "MIGRATION.5eVersionTooOldWarning": "Os dados do seu sistema D&D 5e são de uma versão do Foundry muito antiga e não podem ser migrados de forma confiável para a versão mais recente. O processo será tentado, mas podem ocorrer erros.",
   "SETTINGS.5eAutoCollapseCardL": "Fechar automaticamente descrições de Cartões de Item no registro de chat",
   "SETTINGS.5eAutoCollapseCardN": "Fechar Cartões de Item no Chat",
-  "SETTINGS.5eAutoSpellTemplateL": "Quando uma magia for conjurada, por padrão inicia o processo de criar um Modelo de Medição correspondente se houver (requer cargo de jogador CONFIÁVEL ou superior)",
-  "SETTINGS.5eAutoSpellTemplateN": "Sempre empregar Modelos de Magia",
+  "SETTINGS.5eAutoSpellTemplateL": "Quando uma magia for conjurada, por padrão inicia o processo de posicionar um Modelo de Medida correspondente se houver (requer cargo de jogador CONFIÁVEL ou superior)",
+  "SETTINGS.5eAutoSpellTemplateN": "Sempre posiciona Modelos de Magia",
   "SETTINGS.5eNoAdvancementsN": "Desativar a Automação dos Avanços de Nível",
   "SETTINGS.5eNoAdvancementsL": "Não solicita escolhas para avanço de nível ou criação de personagens.",
-  "SETTINGS.5eNoConcentrationN": "Desativar Cálculo de Concentração",
-  "SETTINGS.5eNoConcentrationL": "Desative o cálculo automatizado de concentração do sistema.",
+  "SETTINGS.5eNoConcentrationN": "Desativar Monitoramento de Concentração",
+  "SETTINGS.5eNoConcentrationL": "Desativa o monitoramento automatizado de concentração do sistema.",
   "SETTINGS.5eGridAlignedSquareTemplatesL": "Quando modelos quadrados são criados como resultado de lançar uma magia ou usar um item, eles serão bloqueados no alinhamento da grade e não poderão ser girados.",
   "SETTINGS.5eGridAlignedSquareTemplatesN": "Modelos Quadrados Alinhados à Grade",
   "SETTINGS.DND5E": {
@@ -4812,20 +4812,20 @@
     },
     "General": "Geral",
     "LOYALTY": {
-      "Hint": "Habilite o rastreamento opcional de Lealdade.",
+      "Hint": "Habilite o monitoramento opcional de Lealdade.",
       "Name": "Valor de Lealdade"
     },
     "METRIC": {
       "LengthUnits": {
-        "Name": "Usar Unidades de Comprimento Métricas",
+        "Name": "Usar Unidades Métricas de Medida",
         "Hint": "Define como padrão o uso de metros em vez de pés para deslocamento e sentidos."
       },
       "VolumeUnits": {
-        "Name": "Usar Unidades de Volume Métricas",
-        "Hint": "Define como padrão o uso de litros em vez de pés cúbicos para capacidade de contêineres."
+        "Name": "Usar Unidades Métricas de Volume",
+        "Hint": "Define como padrão o uso de litros em vez de pés cúbicos para capacidade de recipientes."
       },
       "WeightUnits": {
-        "Name": "Usar Unidades de Peso Métricas",
+        "Name": "Usar Unidades Métricas de Peso",
         "Hint": "Substitui todas as referências a libras por quilogramas e atualiza os cálculos de carga para usar unidades de peso métricas."
       }
     },
@@ -4879,14 +4879,14 @@
         "Name": "Considerar Peso da Moeda"
       },
       "Encumbrance": {
-        "Hint": "Ativar rastreamento automático de carga e a aplicação de efeitos de status para personagens com excesso de peso.",
-        "Name": "Rastreamento de Carga",
+        "Hint": "Ativa o monitoramento automático de carga e a aplicação de efeitos de status para personagens com excesso de peso.",
+        "Name": "Monitoramento de Carga",
         "None": "Nenhum",
         "Normal": "Normal (capacidade máxima de carga)",
         "Variant": "Variante (Sobrecarregado e Muito Sobrecarregado)"
       },
       "HonorScore": {
-        "Hint": "Ativar o uso do atributo opcional, Honra.",
+        "Hint": "Ativa o uso do atributo opcional, Honra.",
         "Name": "Atributo de Honra"
       },
       "LevelingMode": {
@@ -4910,7 +4910,7 @@
         "Normal": "Livro do Jogador (DL: 8 horas, DC: 1 hora)"
       },
       "SanityScore": {
-        "Hint": "Ativar o uso do atributo opcional, Sanidade.",
+        "Hint": "Ativa o uso do atributo opcional, Sanidade.",
         "Name": "Atributo de Sanidade"
       }
     },
