@@ -4525,13 +4525,13 @@
         "hint": "Dados de dano intrínseco da arma. Modificador de atributo e partes de dano adicionais serão fornecidos automaticamente ao atacar."
       },
       "mastery": {
-        "label": "Mestria",
-        "hint": "Habilidade especial da arma desbloqueada por personagens com Mestria com Armas ou uma característica relacionada."
+        "label": "Maestria",
+        "hint": "Habilidade especial da arma desbloqueada por personagens com Maestria com Armas ou uma característica relacionada."
       }
     },
     "Mastery": {
       "Label": "Maestria em Arma",
-      "Flavor": "Mestria",
+      "Flavor": "Meastria",
       "Cleave": "Trespassar",
       "Graze": "Garantido",
       "Nick": "Ágil",
