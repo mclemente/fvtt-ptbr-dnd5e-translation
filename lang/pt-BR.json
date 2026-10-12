@@ -6,58 +6,56 @@
       "SelectType": "O tipo {name} deve ser selecionado para criação."
     }
   },
-  "TYPES": {
-    "Actor": {
-      "character": "Personagem",
-      "characterPl": "Personagens",
-      "npc": "Personagem Não Jogador",
-      "npcPl": "Personagens Não Jogadores",
-      "vehicle": "Veículo",
-      "vehiclePl": "Veículos",
-      "group": "Grupo",
-      "groupPl": "Grupos"
-    },
-    "ActiveEffect": {
-      "enchantment": "Encantamento",
-      "enchantmentPl": "Encantamentos"
-    },
-    "Item": {
-      "background": "Antecedente",
-      "backgroundPl": "Antecedentes",
-      "container": "Recipiente",
-      "containerPl": "Recipientes",
-      "class": "Classe",
-      "classPl": "Classes",
-      "consumable": "Consumível",
-      "consumablePl": "Consumíveis",
-      "equipment": "Equipamento",
-      "equipmentPl": "Equipamentos",
-      "facility": "Instalação",
-      "facilityPl": "Instalações",
-      "feat": "Característica",
-      "featurePl": "Características",
-      "loot": "Espólio",
-      "lootPl": "Espólios",
-      "race": "Espécie",
-      "racePl": "Espécies",
-      "raceLegacy": "Raça",
-      "raceLegacyPl": "Raças",
-      "spell": "Magia",
-      "spellPl": "Magias",
-      "subclass": "Subclasse",
-      "subclassPl": "Subclasses",
-      "tool": "Ferramenta",
-      "toolPl": "Ferramentas",
-      "weapon": "Arma",
-      "weaponPl": "Armas"
-    },
-    "JournalEntryPage": {
-      "class": "Resumo da Classe",
-      "map": "Localização no Mapa",
-      "rule": "Regra",
-      "spells": "Lista de Magia",
-      "subclass": "Resumo da Subclasse"
-    }
+  "TYPES.Actor": {
+    "character": "Personagem",
+    "characterPl": "Personagens",
+    "npc": "Personagem Não Jogáveis",
+    "npcPl": "Personagens Não Jogáveis",
+    "vehicle": "Veículo",
+    "vehiclePl": "Veículos",
+    "group": "Grupo",
+    "groupPl": "Grupos"
+  },
+  "TYPES.ActiveEffect": {
+    "enchantment": "Encantamento",
+    "enchantmentPl": "Encantamentos"
+  },
+  "TYPES.Item": {
+    "background": "Antecedente",
+    "backgroundPl": "Antecedentes",
+    "container": "Recipiente",
+    "containerPl": "Recipientes",
+    "class": "Classe",
+    "classPl": "Classes",
+    "consumable": "Consumível",
+    "consumablePl": "Consumíveis",
+    "equipment": "Equipamento",
+    "equipmentPl": "Equipamentos",
+    "facility": "Instalação",
+    "facilityPl": "Instalações",
+    "feat": "Característica",
+    "featurePl": "Características",
+    "loot": "Espólio",
+    "lootPl": "Espólios",
+    "race": "Espécie",
+    "racePl": "Espécies",
+    "raceLegacy": "Raça",
+    "raceLegacyPl": "Raças",
+    "spell": "Magia",
+    "spellPl": "Magias",
+    "subclass": "Subclasse",
+    "subclassPl": "Subclasses",
+    "tool": "Ferramenta",
+    "toolPl": "Ferramentas",
+    "weapon": "Arma",
+    "weaponPl": "Armas"
+  },
+  "TYPES.JournalEntryPage": {
+    "class": "Resumo da Classe",
+    "map": "Localização no Mapa",
+    "rule": "Regra",
+    "spells": "Lista de Magia",
+    "subclass": "Resumo da Subclasse"
   },
   "TYPES.ChatMessage": {
     "rest": "Mensagem de Descanso",
