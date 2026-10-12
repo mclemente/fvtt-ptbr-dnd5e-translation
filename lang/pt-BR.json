@@ -1,53 +1,68 @@
 {
+  "DOCUMENT.Activity": "Atividade",
+  "DOCUMENT.Advancement": "Avanço",
   "DOCUMENT.DND5E": {
-    "Activity": "Atividade",
-    "Advancement": "Avanço",
     "Warning": {
       "SelectType": "O tipo {name} deve ser selecionado para criação."
     }
   },
-  "TYPES.Actor.character": "Personagem",
-  "TYPES.Actor.characterPl": "Personagens",
-  "TYPES.Actor.npc": "Personagem Não Jogador",
-  "TYPES.Actor.npcPl": "Personagens Não Jogadores",
-  "TYPES.Actor.vehicle": "Veículo",
-  "TYPES.Actor.vehiclePl": "Veículos",
-  "TYPES.Actor.group": "Grupo",
-  "TYPES.Actor.groupPl": "Grupos",
-  "TYPES.ActiveEffect.enchantment": "Encantamento",
-  "TYPES.ActiveEffect.enchantmentPl": "Encantamentos",
+  "TYPES": {
+    "Actor": {
+      "character": "Personagem",
+      "characterPl": "Personagens",
+      "npc": "Personagem Não Jogador",
+      "npcPl": "Personagens Não Jogadores",
+      "vehicle": "Veículo",
+      "vehiclePl": "Veículos",
+      "group": "Grupo",
+      "groupPl": "Grupos"
+    },
+    "ActiveEffect": {
+      "enchantment": "Encantamento",
+      "enchantmentPl": "Encantamentos"
+    },
+    "Item": {
+      "background": "Antecedente",
+      "backgroundPl": "Antecedentes",
+      "container": "Recipiente",
+      "containerPl": "Recipientes",
+      "class": "Classe",
+      "classPl": "Classes",
+      "consumable": "Consumível",
+      "consumablePl": "Consumíveis",
+      "equipment": "Equipamento",
+      "equipmentPl": "Equipamentos",
+      "facility": "Instalação",
+      "facilityPl": "Instalações",
+      "feat": "Característica",
+      "featurePl": "Características",
+      "loot": "Espólio",
+      "lootPl": "Espólios",
+      "race": "Espécie",
+      "racePl": "Espécies",
+      "raceLegacy": "Raça",
+      "raceLegacyPl": "Raças",
+      "spell": "Magia",
+      "spellPl": "Magias",
+      "subclass": "Subclasse",
+      "subclassPl": "Subclasses",
+      "tool": "Ferramenta",
+      "toolPl": "Ferramentas",
+      "weapon": "Arma",
+      "weaponPl": "Armas"
+    },
+    "JournalEntryPage": {
+      "class": "Resumo da Classe",
+      "map": "Localização no Mapa",
+      "rule": "Regra",
+      "spells": "Lista de Magia",
+      "subclass": "Resumo da Subclasse"
+    }
+  },
   "TYPES.ChatMessage": {
     "rest": "Mensagem de Descanso",
     "turn": "Mensagem de Turno de Combate"
   },
-  "TYPES.Item.background": "Antecedente",
-  "TYPES.Item.backgroundPl": "Antecedentes",
-  "TYPES.Item.container": "Recipiente",
-  "TYPES.Item.containerPl": "Recipientes",
-  "TYPES.Item.class": "Classe",
-  "TYPES.Item.classPl": "Classes",
-  "TYPES.Item.consumable": "Consumível",
-  "TYPES.Item.consumablePl": "Consumíveis",
-  "TYPES.Item.equipment": "Equipamento",
-  "TYPES.Item.equipmentPl": "Equipamentos",
-  "TYPES.Item.facility": "Instalação",
-  "TYPES.Item.facilityPl": "Instalações",
-  "TYPES.Item.feat": "Característica",
-  "TYPES.Item.featurePl": "Características",
-  "TYPES.Item.loot": "Espólio",
-  "TYPES.Item.lootPl": "Espólios",
-  "TYPES.Item.race": "Espécie",
-  "TYPES.Item.racePl": "Espécies",
-  "TYPES.Item.raceLegacy": "Raça",
-  "TYPES.Item.raceLegacyPl": "Raças",
-  "TYPES.Item.spell": "Magia",
-  "TYPES.Item.spellPl": "Magias",
-  "TYPES.Item.subclass": "Subclasse",
-  "TYPES.Item.subclassPl": "Subclasses",
-  "TYPES.Item.tool": "Ferramenta",
-  "TYPES.Item.toolPl": "Ferramentas",
-  "TYPES.Item.weapon": "Arma",
-  "TYPES.Item.weaponPl": "Armas",
   "DND5E.title": "Dungeon & Dragons 5ª Edição",
   "DND5E.AbbreviationCR": "ND",
   "DND5E.AbbreviationConc": "Conc.",
@@ -64,7 +79,7 @@
     "SECTIONS": {
       "Bonuses": {
         "Label": "Bônus de {ability}",
-        "Hint": "Este bônus se aplica a todos os testes e salvaguardas feitos com {ability}."
+        "Hint": "Este bônus se aplica a todos os ataques, testes e salvaguardas feitos com {ability}."
       },
       "Global": {
         "Label": "Bônus Global",
@@ -1013,7 +1028,7 @@
           "hint": "Componentes e etiquetas da magia a serem ignorados durante a conjuração."
         },
         "spellbook": {
-          "label": "Exibir no Grimório",
+          "label": "Exibir na Aba de Magias",
           "hint": "Exibir magia na aba Magias da ficha de personagem."
         },
         "uuid": {
@@ -1426,12 +1441,12 @@
             "scaling": {
               "label": "Escalonamento de Consumo",
               "mode": {
-              "label": "Modo de Escalonamento",
-              "hint": "Como o consumo deve ser escalonado."
+                "label": "Modo de Escalonamento",
+                "hint": "Como o consumo deve ser escalonado."
               },
               "formula": {
-              "label": "Formula de Escalonamento",
-              "hint": "Escalonamento personalizado do valor de consumo por nível."
+                "label": "Formula de Escalonamento",
+                "hint": "Escalonamento personalizado do valor de consumo por nível."
               }
             }
           }
@@ -1635,12 +1650,12 @@
             "custom": {
               "label": "Formula de Dano Personalizada",
               "enabled": {
-              "label": "Habilitar Formula Personalizada",
-              "hint": "Use uma fórmula personalizada em vez dos dados padrão."
+                "label": "Habilitar Formula Personalizada",
+                "hint": "Use uma fórmula personalizada em vez dos dados padrão."
               },
               "formula": {
-              "label": "Formula de Dano",
-              "hint": "Formula de dano personalizada."
+                "label": "Formula de Dano",
+                "hint": "Formula de dano personalizada."
               }
             },
             "denomination": {
@@ -1655,18 +1670,18 @@
               "label": "Escalonamento de Dano",
               "abbr": "Escalonamento",
               "mode": {
-              "label": "Modo de Escalonamento",
-              "abbr": "Modo",
-              "hint": "Método pelo qual o escalonamento é calculado."
+                "label": "Modo de Escalonamento",
+                "abbr": "Modo",
+                "hint": "Método pelo qual o escalonamento é calculado."
               },
               "number": {
-              "label": "Escalonamento de Dados",
-              "abbr": "Dado",
-              "hint": "Número de dados a aumentar para cada passo do escalonamento. Será aplicado ao primeiro dado encontrado na fórmula de dano se mais de um estiver presente."
+                "label": "Escalonamento de Dados",
+                "abbr": "Dado",
+                "hint": "Número de dados a aumentar para cada passo do escalonamento. Será aplicado ao primeiro dado encontrado na fórmula de dano se mais de um estiver presente."
               },
               "formula": {
-              "label": "Formula de Escalonamento",
-              "hint": "Fórmula de escalonamento arbitrário que será multiplicada para cada etapa e adicionada à fórmula original."
+                "label": "Formula de Escalonamento",
+                "hint": "Fórmula de escalonamento arbitrário que será multiplicada para cada etapa e adicionada à fórmula original."
               }
             },
             "types": {
@@ -1878,7 +1893,7 @@
         "hint": "Restrições ao tipo de item ao qual esse encantamento pode ser aplicado.",
         "allowMagical": {
           "label": "Permitir Itens Mágicos",
-          "hint": "Permite que os itens que já são mágicos sejam encantados."
+          "hint": "Permite que itens físicos que já são mágicos sejam encantados."
         },
         "categories": {
           "label": "Categorias Válidas",
@@ -4619,11 +4634,6 @@
     "StatusTotalCover": "Cobertura Total",
     "StatusTransformed": "Transformado"
   },
-  "TYPES.JournalEntryPage.class": "Resumo da Classe",
-  "TYPES.JournalEntryPage.map": "Localização no Mapa",
-  "TYPES.JournalEntryPage.rule": "Regra",
-  "TYPES.JournalEntryPage.spells": "Lista de Magia",
-  "TYPES.JournalEntryPage.subclass": "Resumo da Subclasse",
   "JOURNALENTRYPAGE.DND5E": {
     "Class": {
       "FIELDS": {
