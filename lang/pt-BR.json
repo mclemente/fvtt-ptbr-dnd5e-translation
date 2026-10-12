@@ -7,9 +7,9 @@
     }
   },
   "TYPES.Actor": {
-    "character": "Personagem",
-    "characterPl": "Personagens",
-    "npc": "Personagem Não Jogáveis",
+    "character": "Personagem de Jogador",
+    "characterPl": "Personagens de Jogador",
+    "npc": "Personagem Não Jogável",
     "npcPl": "Personagens Não Jogáveis",
     "vehicle": "Veículo",
     "vehiclePl": "Veículos",
